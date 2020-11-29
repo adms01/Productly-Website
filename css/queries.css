@@ -1,0 +1,253 @@
+
+/*Large devices (desktops, less than 1200px) */
+
+@media only screen and (max-width:1120px){
+
+
+    .container{
+        margin: 0 20px;
+    }
+
+    .bg{
+        background-image: none;
+    }
+
+    .blog-widget-articles{
+        flex-direction: column;
+        
+    }
+    
+    .slider-icons{
+        display: none;
+    }
+
+    .article-item{
+        margin-top: 60px;
+    }
+
+  
+}
+
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 1008.00px) { 
+    
+  
+
+
+   .hero{
+       flex-direction: column;
+   }
+
+   .herotxt{
+       margin-top: 150px;
+       max-width: 100%;
+       margin-right: 20px;
+       margin-left: 20px;
+   }
+
+   .heroimg{
+       display: none;
+
+   }
+
+   .features_cont h2{
+  
+       max-width: 100%;
+       margin-left: 0;
+   }
+
+   .design-pro-uc-txt{
+    max-width: 70%;
+   }
+   
+
+   .design-pro-img{
+    width: 40%;
+    height: auto;
+}
+
+.pm-uc-img{
+    width: 40%;
+    height: auto;
+}
+
+.marketers-uc-img{
+    width: 40%;
+    height: auto;
+}
+
+.bg-2av{
+    background-image: none;
+}
+
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 847px) { 
+    .nav_list{
+        display: none;
+    }
+
+    .cta{
+        display: none;
+    }
+
+    .mobile-nav-icon{
+        display: inline-block;
+    }
+
+    .footer-items{
+        flex-direction: column;
+    }
+
+    .featureslist{
+        flex-direction: column;
+       
+    }
+
+    .bg{
+        margin-bottom: 70%;
+    }
+
+    .feature{
+        max-width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .feature p{
+        max-width: 100%;
+       
+    }
+    .two{
+        max-width: 100%;
+    }
+
+}
+ 
+
+@media (max-width: 700.98px) { 
+  
+    
+
+    .card-btn{
+        margin-bottom: 100px;
+    }
+
+    .design-pro-img, 
+    .pm-uc-img,
+     .marketers-uc-img{
+        display: none;
+    }
+
+
+    .design-pro-uc{
+        flex-direction: column;
+    }
+
+    .design-pro-uc-txt{
+        justify-content: flex-start;
+        max-width: 100%;
+    }
+
+    .pm-uc-txt{
+        justify-content: flex-start;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .marketer-uc-txt{
+        justify-content: flex-start;
+        max-width: 100%;
+    }
+
+
+}
+
+
+@media (max-width: 500.98px) { 
+
+    .design-pro-uc{
+        margin-top: 100vh;
+    }
+
+    .contact-expert p{
+        max-width: 100%;
+    }
+
+    .contact-expert h2{
+        text-align: center;
+    }
+
+    .contact-expert{
+        padding-top: 80px;
+    }
+
+    .hero{
+        margin-top: 20px;
+    }
+
+
+    .herotxt p{
+        max-width: 100%%;
+        margin-bottom: 60px;
+    }
+
+    
+   .herotxt{
+    margin-top: 75px;
+    max-width: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+    
+.cta-wd img{
+    margin-right: 8px;
+    margin-left: 0;
+    margin-top: 40px;
+ 
+}
+
+.cta-wd{
+    display: inline-block;
+}
+
+}
+
+
+
+@media (max-width: 375.00px) { 
+
+    .design-pro-uc{
+        margin-top: 120vh;
+    }
+
+}
+
+@media (max-width: 320.00px) { 
+
+    .design-pro-uc{
+        margin-top: 180vh;
+    }
+
+    .bg-2{
+        background-image: none;
+    }
+
+    .container{
+        margin: 0 2px;
+        max-width: 100%;
+    }
+}
+
+
+
+
+
