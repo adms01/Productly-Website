@@ -1,7 +1,7 @@
 
 /*Large devices (desktops, less than 1200px) */
 
-@media only screen and (max-width:1120px){
+@media all and (max-width:1120px){
 
 
     .container{
@@ -31,7 +31,7 @@
 
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 1008.00px) { 
+@media all and (max-width: 1008.00px) { 
     
   
 
@@ -86,7 +86,7 @@
 
 
 /* Small devices (landscape phones, less than 768px) */
- @media (max-width: 847px) { 
+ @media all and (max-width: 847px) { 
     .nav_list{
         display: none;
     }
@@ -133,7 +133,7 @@
 }
  
 
-@media (max-width: 700.98px) { 
+@media all and (max-width: 700.98px) { 
   
     
 
@@ -172,7 +172,7 @@
 }
 
 
-@media (max-width: 500.98px) { 
+@media all and (max-width: 500.98px) { 
 
     .design-pro-uc{
         margin-top: 100vh;
@@ -196,7 +196,7 @@
 
 
     .herotxt p{
-        max-width: 100%%;
+        max-width: 100%;
         margin-bottom: 60px;
     }
 
@@ -223,7 +223,7 @@
 
 
 
-@media (max-width: 375.00px) { 
+@media all and (max-width: 375.00px) { 
 
     .design-pro-uc{
         margin-top: 120vh;
@@ -231,7 +231,7 @@
 
 }
 
-@media (max-width: 320.00px) { 
+@media all and (max-width: 320.00px) { 
 
     .design-pro-uc{
         margin-top: 180vh;
